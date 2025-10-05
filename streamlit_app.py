@@ -27,7 +27,7 @@ ingredients_list = st.multiselect(
 # st.write("You selected:", options)
 if ingredients_list:
     ingredients_string = ''
-    st.subheader(fruit_chosen + ' Nutrition Information')
+    #st.subheader(fruit_chosen + ' Nutrition Information')
 
     for fruit_chosen in ingredients_list:
         ingredients_string += fruit_chosen + ' '
